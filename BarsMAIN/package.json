@@ -1,0 +1,40 @@
+{
+  "name": "barsmain",
+  "author": "Pebble Studio",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "BarsMAIN",
+    "uuid": "931e0167-d940-4094-877a-36195db1fa21",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite",
+      "flint",
+      "chalk",
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "UNTITLED_DESIGN_3",
+          "file": "images/Untitled-design-3.png"
+        }
+      ]
+    }
+  }
+}
